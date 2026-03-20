@@ -5,7 +5,7 @@ USER root
 
 ## -- ADD YOUR CODE HERE !! -- ##
 RUN apt update && \
-    apt install -y zip unzip unrar-free openssh-client htop procps nano less tmux screen vim curl git gfortran rsync ristretto cmake build-essential gnuplot
+    apt install -y zip unzip unrar-free openssh-client htop procps nano less tmux screen vim curl git gfortran gnuplot rsync ristretto cmake build-essential
 
 # Firefox
 RUN install -d -m 0755 /etc/apt/keyrings && \
